@@ -2,7 +2,7 @@
 
 Initial experiments with building an **AI Agent**...
 
-### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
+#### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
 
 - Schema Definition: Declaring tools so the model knows what parameters to output.
 - Intent Parsing / Function Calling: Having the model recognize when to stop and ask for an external tool call rather than returning text.
