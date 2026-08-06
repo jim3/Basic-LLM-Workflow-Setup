@@ -1,6 +1,6 @@
-## Weather & Tool-Calling Integration using Google GenAI SDK (Python)
+## Basic LLM Workflow Setup (Python)
 
-This project demonstrates how to integrate the Google GenAI SDK with Python to create a weather information tool that leverages structured function/tool calling.
+This project demonstrates how to integrate the Google Gemini API (Python) to create a weather information tool that leverages structured function/tool calling.
 
 ### Features
 
