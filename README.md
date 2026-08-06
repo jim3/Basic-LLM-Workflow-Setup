@@ -1,13 +1,10 @@
 ## Basic LLM Workflow Setup (Python)
 
-This project demonstrates how to integrate the Google Gemini API (Python) to create a weather information tool that leverages structured function/tool calling.
+Initial experiments with building an **AI Agent**...
 
-### Features
+### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
 
-- Uses the Gemini API to generate structured JSON schemas and tool signatures.
-- Dynamically extracts parameters and executes local backend API functions (OpenWeather API).
-- Handles multi-step LLM interactions, including JSON payload parsing and local function execution.
-
-## Setup
-`...`
-
+- Schema Definition: Declaring tools so the model knows what parameters to output.
+- Intent Parsing / Function Calling: Having the model recognize when to stop and ask for an external tool call rather than returning text.
+- External API Execution: Fetching environment variables, hitting a REST API (requests), and parsing JSON.
+- Context Injection & Completion: Passing the tool's execution result back to the model state so it can form a natural language response.
