@@ -1,6 +1,6 @@
 ## Basic LLM Workflow
 
-Initial experiments with function calling and the Gemini API
+Initial experiments with function calling and the [Gemini API](https://ai.google.dev/gemini-api/docs)
 
 #### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
 - Schema Definition: Declaring tools so the model knows what parameters to output.
