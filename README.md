@@ -1,9 +1,8 @@
 ## Basic LLM Workflow Setup (Python)
 
-Initial experiments with building an **AI Agent**...
+Initial experiments with function calling and the Gemini API
 
 #### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
-
 - Schema Definition: Declaring tools so the model knows what parameters to output.
 - Intent Parsing / Function Calling: Having the model recognize when to stop and ask for an external tool call rather than returning text.
 - External API Execution: Fetching environment variables, hitting a REST API (requests), and parsing JSON.
