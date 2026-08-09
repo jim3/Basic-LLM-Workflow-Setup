@@ -1,6 +1,4 @@
-## Basic LLM Workflow Setup (Python)
-
-Initial experiments with function calling and the Gemini API
+## Basic LLM Workflow: Initial experiments with function calling and the Gemini API
 
 #### Script covers the classic 4-step function calling loop that powers modern LLM workflows:
 - Schema Definition: Declaring tools so the model knows what parameters to output.
